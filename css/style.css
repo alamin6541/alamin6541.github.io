@@ -1,0 +1,64 @@
+[class*='col-']{
+    border: 1px solid;
+}
+
+.menu-logo{
+    height: 50px;
+}
+.banner{
+     height:400px;
+}
+.contain{
+    height: 600px;
+}
+.big-footer{
+     height:300px;
+}
+.footer{
+     height: 60px;
+}
+
+.size{
+    font-size:25px;
+    transition: 0.2s;
+}
+.size:hover{
+     font-size:27px;
+    color:#449d44;
+}
+.test > ul > li > a{
+    transition: 0.2s;
+}
+.test > ul > li:hover span, .test > ul > li > a:hover{
+    font-size:27px;
+    color:#00cccc;
+}
+/*  nav.sidebar{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }*/
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+    
+/* for hide and show */
+    nav.sidebar{
+      width: 225px;
+      height: 100%;
+      float: left;
+    }
+/* for hide and show */
+    nav.sidebar li {
+      width: 100%;
+    }
+
+
+
+  
